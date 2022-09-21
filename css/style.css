@@ -144,7 +144,7 @@ footer a:hover {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   /* padding: 10px; */
 }
@@ -181,6 +181,38 @@ footer a:hover {
 
 .col-3 {
   padding-left: var(--spacing-col);
+}
+
+/* CONTACT */
+.contact-main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.item i {
+  width: 40px;
+  padding-top: 5px;
+}
+
+.socials {
+  border-top: 1px solid var(--grey);
+  margin-top: 2rem;
+}
+
+.socials i {
+  margin: 20px;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
 
 /* BIO */
@@ -284,7 +316,7 @@ footer a:hover {
   }
 
   .grid-container {
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -400,7 +432,7 @@ footer a:hover {
 
   /* GRID */
   .grid-container {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 
   /* FOOTER */

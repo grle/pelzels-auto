@@ -17,6 +17,7 @@
 
     <!-- ICONS -->
     <script src="https://kit.fontawesome.com/4befeb6987.js" crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
   </head>
   <body>
@@ -47,26 +48,43 @@
     </nav>
 
     <div class="width spacing padding">
-      <h1 class="pg-hd center-text">Our Services</h1>
-      <p>Here at Pelzel’s, we offer a variety of services, which can include
-        anything from a simple oil change to major repairs for engines or
-        transmissions. We have the knowledge and equipment to service every part of
-        your vehicle, and we guarantee you can trust your car with us. Call us at
-        <span class="blue-text">509-653-2251</span>
-        and we can address your concerns about
-        your vehicle.
+      <h1 class="pg-hd center-text">Contact Us</h1>
+      <p>If you are interested in our services, you can contact us by calling
+        our number. We're a bit old fashioned, so we prefer phone over email.
       </p>
     </div>
-    
-    <i class="fa-solid fa-clock"></i>
-    <i class="fa-solid fa-location-dot"></i>
-    <i class="fa-solid fa-phone"></i>
-    <i class="fa-solid fa-envelope"></i>
 
-    <div class="socials">
-      <i class="fa-brands fa-facebook-f"></i>
-      <i class="fa-brands fa-yelp"></i>
-      <i class="fa-brands fa-google"></i>
+    <img class="pg-br spacing" src="../img/break.png" alt="page break with a star">
+
+    <div class="width spacing padding contact-main">
+      <!-- CONTACTS -->
+      <div class="">
+        <div class="item">
+          <i class="fa-solid fa-clock"></i>
+          <p>M-F: 8AM-5PM</p>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>10061 B US Hwy 12
+            <br>
+          Naches, WA 98937</p>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-phone"></i>
+          <p>509-653-2251</p>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-envelope"></i>
+          <p>pelzelsautorepair@gmail.com</p>
+        </div>
+        <!-- SOCIALS -->
+        <div class="socials">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-yelp"></i>
+          <i class="fa-brands fa-google"></i>
+        </div>
+      </div>
+      <div id="map"></div>
     </div>
 
     <!-- FOOTER -->
@@ -76,6 +94,11 @@
           graceavocado</a></p>
     </footer>
 
+    <!-- g maps -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
     <!-- javascript -->
     <script src="../js/script.js" charset="utf-8"></script>
   </body>
