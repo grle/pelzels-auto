@@ -16,19 +16,15 @@ function toggleX() {
 }
 
 /////GOOGLE MAPS
-// Initialize and add the map
-function initMap() {
-  // The location
-  const pelzels = { lat: 46.72829875949094, lng: -120.69864370315264};
-  // The map
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: pelzels,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: pelzels,
-    map: map,
-  });
-}
-window.initMap = initMap;
+// function initMap() {
+//   const pelzels = { lat: 46.72829875949094, lng: -120.69864370315264};
+//   const map = new google.maps.Map(document.getElementById("map"), {
+//     zoom: 4,
+//     center: pelzels,
+//   });
+//   const marker = new google.maps.Marker({
+//     position: pelzels,
+//     map: map,
+//   });
+// }
+// window.initMap = initMap;
