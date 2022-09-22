@@ -18,16 +18,16 @@ function toggleX() {
 /////GOOGLE MAPS
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.031 };
-  // The map, centered at Uluru
+  // The location
+  const pelzels = { lat: 46.72829875949094, lng: -120.69864370315264};
+  // The map
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
-    center: uluru,
+    center: pelzels,
   });
   // The marker, positioned at Uluru
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: pelzels,
     map: map,
   });
 }
