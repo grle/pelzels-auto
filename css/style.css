@@ -87,6 +87,12 @@ footer {
   padding-top: 10px;
 }
 
+.biz-name-mobile {
+  font-size: 1.5rem;
+  display: none;
+  /* padding-top: 10px; */
+}
+
 .toggle {
   display: none;
 }
@@ -354,10 +360,15 @@ footer a:hover {
     /* height: 20px;
     padding-left: 10px; */
     padding: 0px 10px;
+    z-index: 5;
+  }
+
+  .top-nav {
+    display: none;
   }
 
   nav {
-    flex-direction: column;
+    position: fixed;
   }
 
   nav li {
@@ -372,11 +383,19 @@ footer a:hover {
   }
 
   .mobile-menu {
+    background-color: var(--bg);
+    position: absolute;
+    height: 100%;
     display: none;
   }
 
   .menu {
+    width: 100%;
+    height: 100%;
+  }
+  .menu ul {
     display: block;
+    padding-top: var(--padding);
   }
 
   #x {
@@ -387,14 +406,15 @@ footer a:hover {
     display: block;
   }
 
-  /* top */
-  .biz-name {
-    font-size: 1.9rem;
-    /* padding-top: 10px; */
+  .ht {
+    background-color: var(--bg);
+    height: 100%;
   }
 
-  .top-nav-info {
-    font-size: 0.8rem;
+  /* top */
+  .biz-name-mobile {
+    display: block;
+    /* padding-top: 10px; */
   }
 
   /* BANNER */
@@ -405,6 +425,13 @@ footer a:hover {
   .banner-img-mobile {
     display: block;
     padding-top: var(--padding);
+    margin-top: 1rem;
+  }
+
+  /* HEADER */
+  .pg-hd {
+    font-size: 3rem;
+    padding: 1rem 0rem;
   }
 
   /* BIO */

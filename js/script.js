@@ -1,16 +1,19 @@
 /////MENU
 let ham = document.getElementById("ham");
 let x = document.getElementById("x");
+let nav = document.getElementById("nav-bar");
 let menu = document.getElementsByClassName("mobile-menu");
 
 function toggleHam() {
   menu[0].classList.add("visibility");
+  nav.classList.add("ht");
   x.style.display = "block";
   ham.style.display = "none";
 }
 
 function toggleX() {
   menu[0].classList.remove("visibility");
+  nav.classList.remove("ht");
   x.style.display = "none";
   ham.style.display = "block";
 }
