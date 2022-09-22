@@ -118,10 +118,12 @@ footer a:hover {
   color: var(--dark-grey);
   transition: .3s;
 }
-
-.mobile-menu {
+.menu {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+.mobile-menu {
   width: 100%;
 }
 
