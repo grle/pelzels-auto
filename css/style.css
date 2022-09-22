@@ -186,7 +186,7 @@ footer a:hover {
 /* CONTACT */
 .contact-main {
   display: flex;
-  width: 100%;
+  width: 900px;
   justify-content: space-between;
 }
 .item {
@@ -200,8 +200,10 @@ footer a:hover {
 }
 
 .socials {
-  border-top: 1px solid var(--grey);
+  /* border-top: 1px solid var(--grey); */
+  width: 200px;
   margin-top: 2rem;
+  margin: 2rem auto 0rem auto;
 }
 
 .socials i {
@@ -209,10 +211,8 @@ footer a:hover {
 }
 
 #map {
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */
+  height: 350px;
+  width: 350px;
 }
 
 /* BIO */
@@ -317,6 +317,10 @@ footer a:hover {
 
   .grid-container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-main {
+    width: 700px;
   }
 }
 
